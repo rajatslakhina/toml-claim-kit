@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640">
+<rect width="1180" height="640" rx="12" fill="#0b1120"/>
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#94a3b8"/></marker></defs>
+<text x="590.0" y="34" fill="#e2e8f0" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">TOMLClaimKit&#160;&#8212;&#160;check&#160;what&#160;an&#160;answer&#160;says&#160;about&#160;TOML</text>
+<rect x="40" y="70" width="300" height="120" rx="10" fill="#111827" stroke="#60a5fa" stroke-width="2"/>
+<text x="190.0" y="94" fill="#60a5fa" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Answer&#160;text</text>
+<text x="190.0" y="116" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">prose&#160;sentences</text>
+<text x="190.0" y="133" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">blocks&#160;labeled&#160;toml</text>
+<text x="190.0" y="150" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Python&#160;snippets&#160;(script&#160;and&#160;REPL)</text>
+<text x="190.0" y="167" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">from&#160;any&#160;LLMProvider&#160;via&#160;the&#160;gateway</text>
+<rect x="440" y="50" width="300" height="160" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+<text x="590.0" y="74" fill="#a78bfa" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">TOMLClaimReader</text>
+<text x="590.0" y="96" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">ProseReader:&#160;&quot;valid&#160;TOML&quot;&#160;/&#160;&quot;won&#x27;t&#160;parse&quot;</text>
+<text x="590.0" y="113" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">ReadingReader:&#160;&quot;`v&#160;=&#160;3.10`&#160;is&#160;the&#160;string&quot;</text>
+<text x="590.0" y="130" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">PythonReader:&#160;tomllib.load&#160;/&#160;loads,</text>
+<text x="590.0" y="147" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">open(path,&#160;&quot;rb&quot;)&#160;modes,&#160;tomllib.dumps</text>
+<text x="590.0" y="164" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">-&gt;&#160;[TOMLClaim]&#160;(validity,&#160;reading,&#160;loading)</text>
+<rect x="840" y="70" width="300" height="120" rx="10" fill="#111827" stroke="#f472b6" stroke-width="2"/>
+<text x="990.0" y="94" fill="#f472b6" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">TOMLEvaluator</text>
+<text x="990.0" y="116" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">parse&#160;the&#160;block,&#160;read&#160;the&#160;value,</text>
+<text x="990.0" y="133" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">or&#160;run&#160;the&#160;tomllib&#160;call</text>
+<text x="990.0" y="150" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Slips:&#160;25&#160;named&#160;mistakes</text>
+<text x="990.0" y="167" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">2&#160;caveats,&#160;unchecked&#160;with&#160;a&#160;reason</text>
+<rect x="440" y="260" width="300" height="170" rx="10" fill="#111827" stroke="#34d399" stroke-width="2"/>
+<text x="590.0" y="284" fill="#34d399" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">TOMLParser&#160;(TOML&#160;1.0)</text>
+<text x="590.0" y="306" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">tomllib&#x27;s&#160;own&#160;rules,&#160;step&#160;for&#160;step:</text>
+<text x="590.0" y="323" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">explicit&#160;/&#160;frozen&#160;table&#160;flags,</text>
+<text x="590.0" y="340" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">pending&#160;dotted-key&#160;tables,&#160;[[arrays]]</text>
+<text x="590.0" y="357" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">first&#160;mistake&#160;named:&#160;25&#160;kinds,</text>
+<text x="590.0" y="374" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">line&#160;and&#160;column;&#160;219-text&#160;parity</text>
+<rect x="40" y="260" width="300" height="170" rx="10" fill="#111827" stroke="#fbbf24" stroke-width="2"/>
+<text x="190.0" y="284" fill="#fbbf24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Runner&#160;+&#160;Python&#160;model</text>
+<text x="190.0" y="306" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">TOMLValue:&#160;str,&#160;int,&#160;float,&#160;bool,</text>
+<text x="190.0" y="323" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">date,&#160;time,&#160;datetime&#160;(tzinfo),&#160;list,&#160;dict</text>
+<text x="190.0" y="340" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">[&quot;key&quot;],&#160;[0],&#160;.get(k,&#160;d)&#160;as&#160;Python&#160;does</text>
+<text x="190.0" y="357" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">repr&#160;/&#160;print&#160;/&#160;type()&#160;rendering</text>
+<text x="190.0" y="374" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">KeyError,&#160;TypeError,&#160;AttributeError</text>
+<rect x="840" y="260" width="300" height="170" rx="10" fill="#111827" stroke="#60a5fa" stroke-width="2"/>
+<text x="990.0" y="284" fill="#60a5fa" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">TOMLReport</text>
+<text x="990.0" y="306" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">verdict:&#160;noClaims&#160;/&#160;verified&#160;/</text>
+<text x="990.0" y="323" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">unchecked&#160;/&#160;caution&#160;/&#160;wrong</text>
+<text x="990.0" y="340" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">note&#160;for&#160;the&#160;reader</text>
+<text x="990.0" y="357" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">feedback&#160;for&#160;the&#160;model</text>
+<text x="990.0" y="374" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">summary&#160;for&#160;a&#160;trace</text>
+<rect x="440" y="480" width="300" height="120" rx="10" fill="#111827" stroke="#f59e0b" stroke-width="2"/>
+<text x="590.0" y="504" fill="#f59e0b" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">TOMLLedger&#160;(actor)</text>
+<text x="590.0" y="526" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">one&#160;per&#160;conversation</text>
+<text x="590.0" y="543" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">marks&#160;a&#160;flagged&#160;claim&#160;stated&#160;again</text>
+<text x="590.0" y="560" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">after&#160;a&#160;correction&#160;as&#160;repeated</text>
+<text x="590.0" y="577" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">statistics:&#160;reviews,&#160;claims,&#160;flagged</text>
+<rect x="840" y="480" width="300" height="120" rx="10" fill="#111827" stroke="#22c55e" stroke-width="2"/>
+<text x="990.0" y="504" fill="#22c55e" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Consumers</text>
+<text x="990.0" y="526" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">llm-ecosystem-demo:&#160;scenario&#160;104</text>
+<text x="990.0" y="543" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">ai-chat-app:&#160;tomlCheck&#160;stage</text>
+<text x="990.0" y="560" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">(post-model,&#160;after&#160;yamlCheck)</text>
+<text x="990.0" y="577" fill="#cbd5e1" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">TOMLValidator&#160;on&#160;its&#160;own</text>
+<line x1="340" y1="130" x2="438" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="740" y1="130" x2="838" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="990" y1="190" x2="990" y2="258" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="840" y1="175" x2="742" y2="300" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="840" y1="160" x2="342" y2="300" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="990" y1="430" x2="990" y2="478" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+<line x1="840" y1="520" x2="742" y2="540" stroke="#94a3b8" stroke-width="2" marker-end="url(#a)"/>
+</svg>
